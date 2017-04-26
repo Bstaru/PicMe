@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/custombox.min.css">
+<head>
+	<title>PicMe</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 
+	<link href="css/HOME_STYLE.css" rel="stylesheet">
+	<script src = "js/scroll.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Baloo+Paaji" rel="stylesheet">
+	<link rel="icon" href="IMG\PICKME.ico">
+
+<script src="js/custombox.min.js"></script>.
+
+	<script src="js/legacy.min.js"></script>
+	<script src="js/custombox.min.js"></script>
+<script>
+	    $(function() {
+	        $('#notificacion').on('click', function( e ) {
+	            Custombox.open({
+	                target: '#try',
+	                effect: 'fadein'
+	            });
+	            e.preventDefault();
+	        });
+	    });
+</script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#try").hide();
+  });
+  $("#show").click(function(){
+    $("#try").show();
+  });
+});
+</script>
+
+</head>
+<body>
+	<div class = "header">
+	<div class = "headercontainer">
+
+		<div class ="buscarWea">
+			<div class = "buscarjej">
+				<form action="SEARCH.html" method="GET" class="search-form">
+					<input type="search" name="q" results="5" placeholder="Buscar..." value="" class = "searchjej">
+					<input type="submit" value="Buscar" class="button" >
+				</form>
+			</div>	
+		</div>
+		<div class = "logoo">
+				<a href = "HOME.html"><img class = "logojej"src="IMG\PICMEa.png"></a>
+		</div>
+		<table id = "navi">
+				<tr>
+
+				<td class = "sprite-admin"> <a href="ADMIN.html"> <img src="IMG\admin.png"></a> </td>
+				<td class = "sprite-home"><a href = "HOME.html"><img src="IMG\home.png"></a></td>
+				<td class = "sprite-home"><a href = "PROFILE.html"><img src="IMG\u.png"></a></td>
+				<td class = "sprite-bell" id="notificacion" style = "cursor:pointer;"><img src="IMG\bell.png"></td>
+				<td class = "sprite-config"><a href = "CONFIG.html"><img src="IMG\config.png"></a></td>
+				<td class = "sprite-exit"><a href = "LOGIN.html"><img src="IMG\exit.png"></a></td>
+				
+
+				</tr>
+		</table>	
+		</div>
+	</div>
+
+	<div class = "notificaciones">
+		<div></div>
+	</div>
+
+	<div class= "todo">
+		<div class="derecha der">	
+			<div class = "portada">
+					<img class = "cover" src="IMG\ichicake.png" alt="">				
+					<img class = "picture" src="IMG\karahue.png" alt="">
+					<h1>
+						<a href="PROFILE.html">USUARIO</a>
+					</h1>				
+			</div>
+			
+			<div class = "seguidores" >
+				<table id = "cont_seg" align = "center">
+					<tr>
+						<td >SEGUIDORES</td>
+						<td >SIGUIENDO</td>
+					</tr>
+					<tr>
+						<td>cantidad</td>
+						<td>cantidad </td>
+					</tr>
+				</table>
+			</div>		
+		</div>
+	</div>
+	</div>
+
+	<div class ="new_post">
+			<div class = "nuevo">
+				<div class = "nuevo_post">
+					<textarea rows="4" cols ="" class = "postjej" placeholder = "¿Qué descubriste?..."></textarea>
+					
+					<label for="file-upload" class="custom-file-upload">
+    				Subir foto
+					</label>
+					<input id="file-upload" type="file"/>
+					
+
+					<input type="submit" value="PUBLICAR" class="Publicar" >
+				</div>
+			</div>	
+	</div>
+	
+	<div id="posts">
+		<div class = "contenido" id="entry1">
+			<div class = "perma2">
+				<a href="">1 day ago "♥"</a>
+				
+				<a href="">20 likes</a>
+				<div class = "botones">
+					<div class = "likedivv">
+						<div class = "like">
+							<img src="IMG\heart2.png">
+							</div>
+					</div>
+				</div>
+			</div>
+			<a href="">
+				<div style = "background-color:#fffff;">
+					<img style = "min-width:600px;"src="IMG\heh.png" class = "center">
+				</div>
+				
+			</a>
+			<div class = "caption">
+				<ul class = class = "u_caption u_caption2">
+					<li class="cosa1">
+						<h2>
+							<a class = "ref_nombreU" title = "bstaru95" href="/bstaru95/">bstaru95</a>
+						<span>
+							pie de foto-video del usuario
+						</span>
+						</h2></li>
+					<li class = "cosa1">ekisde comentario</li>
+					<li class = "cosa1">ekisde comentario</li>
+					<li class = "cosa1">ekisde comentario</li>
+					<li class = "cosa1">ekisde comentario</li>
+				</ul>
+				<hr>
+				<section class = "coment1">
+					<div class = "inComent"><input value="Añade un comentario..." onfocus="if(this.value=='Añade un comentario...')this.value='';" onblur="if(this.value=='')this.value='Añade un comentario...';"></div>		
+					<div class = "okComent"><button class ="">Más opciones</button></div>
+				</section>
+			</div>
+			<div class = "tagss">
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+			</div>
+		</div>
+		<div class = "contenido" id="entry2">
+			<div class = "perma2">
+				<a href="">1 day ago "♥"</a>
+				
+				<a href="">20 likes</a>
+				<div class = "botones">
+					<div class = "likedivv">
+						<div class = "like">
+							<img src="IMG\heart2.png">
+							</div>
+					</div>
+				</div>
+			</div>
+			<a href="">
+				<div style = "background-color:#fffff;">
+					<img style = "min-width:600px;"src="IMG\KEVIN2.png" class = "center">
+				</div>
+				
+			</a>
+			<div class = "caption">
+				<ul class = class = "u_caption u_caption2">
+					<li class="cosa1">
+						<h2>
+							<a class = "ref_nombreU" title = "bstaru95" href="/bstaru95/">bstaru95</a>
+						<span>
+							pie de foto-video del usuario
+						</span>
+						</h2></li>
+					<li class = "cosa1">ekisde comentario</li>
+					<li class = "cosa1">ekisde comentario</li>
+					<li class = "cosa1">ekisde comentario</li>
+					<li class = "cosa1">ekisde comentario</li>
+				</ul>
+				<hr>
+				<section class = "coment1">
+					<div class = "inComent"><input value="Añade un comentario..." onfocus="if(this.value=='Añade un comentario...')this.value='';" onblur="if(this.value=='')this.value='Añade un comentario...';"></div>		
+					<div class = "okComent"><button class ="">Más opciones</button></div>
+				</section>
+			</div>
+			<div class = "tagss">
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+				<a href="">#tag</a>
+			</div>
+		</div>
+	</div>
+
+<div class = "c">
+<a href="#" class="cd-top"><img src="go_top.png"></a>
+
+</div>
+<script src = "css/SCROLL.js"></script>
+<script src = "js/topRight.js"></script>
+	
+</body>
+
+<div class = "cosasmagicas" id="try"  style="display: none;">
+		<div class = "notificacionmagica">
+			<div class = "cosaa"> 
+			 <h2>Notificaciones</h2>
+			 <table border="0.5">
+				 <tr> 
+				 	<td><img src="IMG/karahue.png" class ="imgNoti"></td>
+				 	<td> "USUARIO"</td>
+				 	<td> Comento tu foto </td>
+				 </tr>
+			 </table>
+			 </div>
+		 </div>
+ </div>
+</html>

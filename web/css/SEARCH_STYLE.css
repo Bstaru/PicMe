@@ -1,0 +1,187 @@
+body{
+	background-color: #efefef;    
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    position: fixed;
+    z-index: 90;
+    top: 0;
+    left: 0; 
+    right: 0;
+    height: 70px;
+    background: #767b91;
+}
+.headercontainer {
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 70px;
+    width: 80%;
+}
+.buscarWea{
+	float: left;
+    margin-left: 5%;
+	padding-top: 7px;
+    padding-bottom: 7px;
+    width: 45%;
+}.buscarjej {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.searchjej{
+	float: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+    border: 2px solid #ffffff;  
+	border-radius: 8px;
+    width: 300px;
+    height: 35px;
+}
+.button{
+    float: center;
+    font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+   	background-color: #3d5a80;
+	border: 2px solid #3d5a80;    
+    border-radius: 8px;
+	color:#efefef;
+    height: 35px;
+	}
+
+.logoo{
+    float: left;
+    width: 20%;
+}
+.logojej{
+    width:30px;
+    height: 70px;
+    margin-left: 20%;
+}
+
+.sprite-home, .sprite-bell, .sprite-config, .sprite-exit, .sprite-exit  {
+    width: 40px;
+    height: 45px;
+}
+
+#navi{
+    float: right;
+    width: 30%;
+    height: 70px;
+   }
+  #navi table{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+  }
+   #navi td{  
+    text-align: center; 
+    padding-top: 5px;
+   }
+
+.fondo{
+    top: 800px;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
+.fondocont{    
+    margin-left: 77%;
+    display: block;
+    width: 100px;
+    height: 100px;
+   }
+  .cosaa{
+    margin-right:10% ;
+    margin-left:10% ;
+   }
+    .cosaa table {
+        width: 80% ;
+    }
+   .cosasmagicas {
+    position: relative;
+    z-index: 80;
+    top: 80px;
+    bottom: 10px;
+    left: 0; 
+    right: 0;
+    height: 645px;
+}
+    .notificacionmagica{
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 445px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: #C9DCE5;
+    }
+    .notificacionmagica {
+    float: right;
+    margin-right: 8%;    
+    }
+
+/* --------------------------------------------------------------------------
+ relleno
+/--------------------------------------------------------------------------*/
+.cuadro {
+    position: relative;
+    z-index: 80;
+    top: 80px;
+    bottom: 10px;
+    left: 0; 
+    right: 0;
+    height: 600px;
+
+   /* background-color: black;*/
+}
+.relleno{
+    margin: 0px auto 0px auto;
+    display: block;
+    width: 80%; height: 100%;
+
+    border-radius: 30px;
+    background-color: #C9DCE5;
+    -webkit-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+    box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+
+ /*   background-color: white; */
+}
+.titulo{
+	height: 50px;
+	background-color: #3d5a80;;
+	color:white;
+}
+.titulo h2 {
+	font-family: 'Raleway', sans-serif;
+    margin: 0 43%;
+}
+ol, ul{
+    list-style: none;
+}
+.resultados {
+	padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size:15pt;
+}
+.cosa1{
+    margin-bottom: 7px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+
+.imagenusuario{
+    width: 100px; height: 100px;
+    border-radius: 70px;
+}
+.elnombre{
+        position: absolute;
+    top: 0%;
+    left: 10%;
+    bottom: 0;
+}
+.lacd{
+     position: absolute;
+    top: 40%;
+    left: 10%;
+    bottom: 0;
+}

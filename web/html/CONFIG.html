@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/custombox.min.css">
+<head>
+	<title>PicMe</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="css/CONFIG_STYLE.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Baloo+Paaji" rel="stylesheet">
+	<link rel="icon" href="IMG\PICKME.ico">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<script src="js/custombox.min.js"></script>
+	<script src="js/legacy.min.js"></script>
+	<script src="js/custombox.min.js"></script>
+
+<script>
+	    $(function() {
+	        $('#notificacion').on('click', function( e ) {
+	            Custombox.open({
+	                target: '#try',
+	                effect: 'fadein'
+	            });
+	            e.preventDefault();
+	        });
+	    });
+	</script>
+	<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#try").hide();
+  });
+  $("#show").click(function(){
+    $("#try").show();
+  });
+});
+</script>
+</head>
+<body>
+		<div class = "header">
+	<div class = "headercontainer">
+
+		<div class ="buscarWea">
+			<div class = "buscarjej">
+				<form action="SEARCH.html" method="GET" class="search-form">
+					<input type="search" name="q" results="5" placeholder="Buscar..." value="" class = "searchjej">
+					<input type="submit" value="Buscar" class="button" >
+				</form>
+			</div>	
+		</div>
+		<div class = "logoo">
+				<a href = "HOME.html"><img class = "logojej"src="IMG\PICMEa.png"></a>
+		</div>
+		<table id = "navi">
+				<tr>
+				<td class = "sprite-admin"> <a href="ADMIN.html"> <img src="IMG\admin.png"></a> </td>
+				<td class = "sprite-home"><a href = "HOME.html"><img src="IMG\home.png"></a></td>
+				<td class = "sprite-home"><a href = "PROFILE.html"><img src="IMG\u.png"></a></td>
+				<td class = "sprite-bell" id="notificacion" style = "cursor:pointer;"><img src="IMG\bell.png"></td>
+				<td class = "sprite-config"><a href = "CONFIG.html"><img src="IMG\config.png"></a></td>
+				<td class = "sprite-exit"><a href = "LOGIN.html"><img src="IMG\exit.png"></a></td>
+
+				</tr>
+		</table>	
+		</div>
+	</div>
+	<div class = "content">
+		<div class = "cuadro">
+
+		<div class = "privado">
+			<div class = "cosa">
+				<h2>Foto de perfil</h2>
+			</div>
+			<label for="file-upload" class="custom-file-upload">
+    				Subir foto
+					</label>
+					<input id="file-upload" type="file"/>
+		</div><hr width ="85%">
+
+		<div class = "privado">
+			<div class = "cosa">
+				<h2>Foto de portada</h2>
+			</div>
+			<label for="file-upload" class="custom-file-upload">
+    				Subir foto
+					</label>
+					<input id="file-upload" type="file"/>
+		</div><hr width ="85%">
+
+		<div class = "privado">
+			<div class = "cosa">
+				<h2>Cuenta privada</h2>
+			</div>
+			<div class ="switchu">
+
+				<div class="onoffswitch">
+    			<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+
+    			<label class="onoffswitch-label" for="myonoffswitch">
+       			 <span class="onoffswitch-inner"></span>
+       			 <span class="onoffswitch-switch"></span>
+   				 </label>
+				</div>
+			</div>
+		</div><hr width ="85%">
+
+		<div class = "privado">
+			<div class = "cosa">
+				<h2>Cambio de coreo</h2>
+			</div>
+			<input type="email" id="mail" required placeholder = " Correo Electrónico">
+		</div><hr width ="85%">
+
+		<div class = "privado">
+			<div class = "cosa">
+				<h2>Cambio de contraseña</h2>
+			</div>
+			<input type="password" id="password" placeholder = " Contraseña">
+		</div><hr width ="85%">
+
+		<div class  = "botonjej">
+			<button type="Submit" class = "btnok" value="submit">Guardar Cambios</button>
+		</div>
+
+		</div>
+	</div>
+
+</body>
+<div class = "cosasmagicas" id="try"  style="display: none;">
+		<div class = "notificacionmagica">
+			<div class = "cosaa"> 
+			 <h2>Notificaciones</h2>
+			 <table border="0.5">
+				 <tr> 
+				 	<td><img src="IMG/karahue.png" class ="imgNoti"></td>
+				 	<td> "USUARIO"</td>
+				 	<td> Comento tu foto </td>
+				 </tr>
+			 </table>
+			 </div>
+		 </div>
+ </div>
+</html>		

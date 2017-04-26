@@ -1,0 +1,207 @@
+body{
+	background-color: #efefef;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13pt;
+}
+h1{
+	text-align: center;
+	margin: 2px;
+}
+#login{
+	margin: 10px auto;
+	padding: 20px;
+	width: 460px;
+	background-color: #C9DCE5;
+	border-radius: 5px;
+	position: relative;;
+}
+#mail, #password {	
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;	
+}
+.flechita1, .flechita2{
+    height: 30px; width: 30px;
+    border: none;
+    background-image: url("../IMG/flecha.png");
+    border:2px solid #efefef;
+    border-radius: 70px;
+    display: none;
+}
+#btnlogin{
+	width: 135px; 
+	height: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13pt;
+	color: white;
+	background-color: #3d5a80;
+	border: 2px solid #3d5a80;
+	border-radius: 10px;
+}
+#new_u{
+padding-left: 180px;
+}
+a:visited {
+	color: #767b91;
+}
+#copy{
+
+    position: relative;
+	padding-bottom:10px;
+	color: white;
+	background-color: #767b91;
+	text-align: center;
+}
+/*---------------new_u---------------*/
+#cuadro{
+	min-height: 700px;
+}
+#new_u_ {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    width: 950px; height: 900px;
+    margin: auto;
+    background: #C9DCE5;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 45px;
+    background-color: #C9DCE5;
+    -webkit-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+    box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+.labelus{
+    float: left;
+    width: 35%;    
+    height: 770px;
+    text-align: right;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    text-align: right;
+    width: 290px;
+    margin-bottom: 10px; margin-top: 0px; 
+    padding: 7px;
+}
+.textos{
+    float: right;
+    width: 65%;
+    height: 770px;
+}
+.textos .campos {    
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    text-align: left;
+    width: 500px;
+    margin-bottom: 26px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+.textos select {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    text-align: left;
+    width: 500px;
+    margin-bottom: 26px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+.textos .losR {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    text-align: left;
+    width: 100px; height: 15px;
+    margin-bottom: 26px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+ input[type="file"] {
+    display: none;
+    margin-bottom: 20px;
+}
+.fotoP{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    text-align: left;
+    width: 100px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #3d5a80;
+    border: 2px solid #3d5a80; 
+    color: #ffffff;
+    cursor: pointer;
+    //float: left;     
+}
+
+.weaPosi{
+    position: absolute;
+    right: 0;
+    top: 700px;
+    left: 770px;
+    width: 350px;
+    height: 150px;
+}
+
+.preview{
+    height: 150px;
+}
+   .perfil
+	{   display: block;
+            position: absolute;
+            z-index: 100;
+            margin: 0px auto 0px auto;
+            border:5px solid #3d5a80;
+            border-radius: 70px;		
+            width:128px;
+            height:128px;  
+	}
+    .portada
+        {   display: block;
+            position: absolute;
+            z-index: 99;
+            margin: 0px auto 0px auto;
+            border-radius: 20px;
+            width: 350px;
+            height: 150px; 
+        }
+        
+#llenar {
+    font-family: 'Raleway', sans-serif;    
+    font-size: 20px;
+    color:white;    
+    margin-left: 320px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3d5a80;
+    cursor: pointer;
+}
+#logo_NU{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+#back_login{
+    font-size: 20pt;
+  }
+.oculto {
+    display: none;
+}

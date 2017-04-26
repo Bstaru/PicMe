@@ -1,0 +1,221 @@
+body{
+	background-color: #efefef;    
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    position: fixed;
+    z-index: 90;
+    top: 0;
+    left: 0; 
+    right: 0;
+    height: 70px;
+    background: #767b91;
+}
+.headercontainer {
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 70px;
+    width: 80%;
+}
+.buscarWea{
+    float: left;
+    margin-left: 5%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 45%;
+}
+.buscarjej {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.searchjej{
+    float: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border: 2px solid #ffffff;  
+    border-radius: 8px;
+    cursor:pointer;
+    width: 300px;
+    height: 35px;
+}
+.button{
+    float: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: #3d5a80;
+    border: 2px solid #3d5a80;    
+    border-radius: 8px;
+    color:#efefef;
+    height: 35px;
+    }
+
+.logoo{
+    float: left;
+    width: 20%;
+}
+.logojej{
+    width:30px;
+    height: 70px;
+    margin-left: 20%;
+}
+
+.sprite-home, .sprite-bell, .sprite-config, .sprite-exit , .sprite-exit {
+    width: 40px;
+    height: 45px;
+}
+
+#navi{
+    float: right;
+    width: 30%;
+    height: 70px;
+   }
+  #navi table{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+  }
+   #navi td{  
+    text-align: center; 
+    padding-top: 5px;
+   }
+
+.fondo{
+    top: 800px;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
+.fondocont{    
+    margin-left: 77%;
+    display: block;
+    width: 100px;
+    height: 100px;
+   }
+
+/* --------------------------------------------------------------------------
+ jej
+/--------------------------------------------------------------------------*/
+
+.cosaa{
+    margin-right:10% ;
+    margin-left:10% ;
+   }
+    .cosaa table {
+        width: 80% ;
+    }
+   .cosasmagicas {
+    position: relative;
+    z-index: 80;
+    top: 80px;
+    bottom: 10px;
+    left: 0; 
+    right: 0;
+    height: 645px;
+}
+    .notificacionmagica{
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 445px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: #C9DCE5;
+    }
+    .notificacionmagica {
+    float: right;
+    margin-right: 8%;    
+    }
+
+.cosas {
+    position: relative;
+    z-index: 80;
+    top: 80px;
+    bottom: 10px;
+    left: 0; 
+    right: 0;
+    height: 645px;
+}
+    .pu_contenedor, .us_contenedor{
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 645px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: #3d5a80;
+    }
+    .pu_contenedor {
+    float: right;
+    margin-right: 8%;    
+    }
+    .us_contenedor {
+    float: left;
+    margin-left: 8%;
+    }
+.imagenU{
+    width: 150px; height: 150px;
+    border-radius: 100px;
+}
+    
+.cosa{
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+}
+.cosa table{
+      width: 450px ;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+}
+.tablaUB{
+     margin-left: 5%;
+    margin-right: 5%;
+}
+td{
+    margin:50%;
+}
+.cosa h2{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20pt;
+    color: white;
+}
+.cosa h3{
+    float:center;
+    margin: 50px;
+    font-size: 20px;
+     color: white;
+}
+
+hr{
+    border: none;
+    height: 7px;
+    background-color: #727e84;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.botonjej{
+    height: 50px;
+     margin: 10px;
+     padding-right: 40%;
+     padding-left: 40%;
+     margin-top: 50px;
+}
+.btnok{
+    width: 135px; 
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    color: white;
+    background-color: #3d5a80;
+    border: 2px solid #3d5a80;
+    border-radius: 10px;
+    position: center;
+}
+.botonactualizar{
+    height: 50px;
+    margin: 10px;
+    padding-right: 40%;
+    padding-left: 40%;
+    margin-top: 50px; 
+}

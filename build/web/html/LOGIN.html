@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PicMe</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Baloo+Paaji" rel="stylesheet">
+	<link rel="icon" href="IMG\PICKME.ico">
+
+	<link href="css/STYLE.css" rel="stylesheet">
+	<link type="text/css" href="./../css/style.css" rel="stylesheet" />
+		
+	<script language="javascript">
+		// nombre y passwd del usuario
+		var nombreUsuario = document.GetElementById=("usernombre").value;
+		var passwdusuario = document.GetElementById=("usernombre").value;
+		var ejem = new usuarios (ejem,admin123);
+		function usuarios(nombre,pass){
+			this.nombre=nombre;
+			this.contraseña=pass
+		}
+		function verificar{
+			if (ejem.nombre==nombreUsuario && this.contraseña==passwdusuario)
+			{window.location='LOGIN.html';}
+			else
+		{ alert('el usuario y o la contraseña están equivocados');} 
+
+			}
+	</script>
+	<script type="text/javascript" src="./../js/jquery-1.10.2.min.js" ></script>
+    <script type="text/javascript" src="./../js/validar.js" ></script>
+    
+</head>
+<body>
+
+<div id ="cuadro">
+	
+	<h1> <img height =300 width= 500 src = "IMG/PICME_F1.png"/ ></h1>
+
+	<div id = "login">
+
+		<form class "formuLog "name = "formLogin" action="HOME.html" method="POST">
+
+		<table id = "tabla" align = "center">
+			<tr>
+                <td><img height =30 width= 30 src = "IMG/u.png"/ ></td>
+                 <td><input type="email" id="mail" required placeholder = " Correo Electrónico"></td>
+            </tr>
+            <tr>
+            	<td><img height =30 width= 30 src = "IMG/contraseña.png"/ ></td>
+                 <td><input type="password" id="password" required placeholder = " Contraseña"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><hr></td><br>
+            </tr>
+		</table>
+
+		<table  align = "center">
+			<tr>
+				<td>
+					<input type="checkbox" value="1" name ="remember_me" checked="checked" id="CB_contra"><span>Recordar mis datos</span>
+				</td>
+				<td>
+					<button type="Submit" id="btnlogin" value="submit">Iniciar Sesión </button>
+				</td>
+			</tr>				
+		</table>
+	</form>
+
+		<br><a href= "NEW_USER.html" id="new_u">Nuevo usuario</a><br>
+
+	</div>
+
+</div>
+
+	<footer id = "copy">
+		&copy 2016 PicMe All rights reserved
+	</footer>
+</body>
+
+</html>

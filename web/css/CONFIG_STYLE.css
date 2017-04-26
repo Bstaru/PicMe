@@ -1,0 +1,311 @@
+body{
+	background-color: #efefef;    
+    font-family: 'Raleway', sans-serif;
+}
+.oculto {
+    display: none;
+}
+.cosasmagicas {
+    position: relative;
+    z-index: 80;
+    top: 80px;
+    bottom: 10px;
+    left: 0; 
+    right: 0;
+    height: 645px;
+}
+    .notificacionmagica{
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 445px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: #C9DCE5;
+    }
+    .notificacionmagica {
+    float: right;
+    margin-right: 8%;    
+    }
+.header {
+    position: fixed;
+    z-index: 90;
+    top: 0;
+    left: 0; 
+    right: 0;
+    height: 70px;
+    background: #767b91;
+}
+.headercontainer {
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 70px;
+    width: 80%;
+}
+.buscarWea{
+    float: left;
+    margin-left: 5%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 45%;
+}
+.buscarjej {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.searchjej{
+    float: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border: 2px solid #ffffff;  
+    border-radius: 8px;
+    cursor:pointer;
+    width: 300px;
+    height: 35px;
+}
+.button{
+    float: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: #3d5a80;
+    border: 2px solid #3d5a80;    
+    border-radius: 8px;
+    color:#efefef;
+    height: 35px;
+    }
+
+.logoo{
+    float: left;
+    width: 20%;
+}
+.logojej{
+    width:30px;
+    height: 70px;
+    margin-left: 20%;
+}
+
+.sprite-home, .sprite-bell, .sprite-config, .sprite-exit , .sprite-exit {
+    width: 40px;
+    height: 45px;
+}
+
+#navi{
+    float: right;
+    width: 30%;
+    height: 70px;
+   }
+  #navi table{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+  }
+   #navi td{  
+    text-align: center; 
+    padding-top: 5px;
+   }
+
+.fondo{
+    top: 800px;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
+.fondocont{    
+    margin-left: 77%;
+    display: block;
+    width: 100px;
+    height: 100px;
+   }
+/* --------------------------------------------------------------------------
+   cosa
+/--------------------------------------------------------------------------*/
+
+.content {
+    position: relative;
+    z-index: 80;
+    top: 80px;
+    bottom: 20px;
+    left: 0; 
+    right: 0;
+    height: 100%;
+
+    /*background-color: black; */
+}
+
+.cuadro {
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 93%;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #C9DCE5;
+    -webkit-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+    box-shadow: 0px 0px 36px 2px rgba(0,0,0,0.19);
+}
+.privado {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.cosa{
+    float: left;
+    width: 55%;
+    height: 80%;
+    margin: 10px;
+}
+.cosa h2{
+    float: right;
+    margin: 0px;
+    font-size: 15pt;
+}
+hr{
+    border: none;
+    height: 7px;
+    background-color: #727e84;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+#mail, #password, #nombre, 
+#nombreUsuario, #fechN, .campos, select{  
+    margin-top: 10px;
+    height: 27px; width: 245px;
+    border-radius: 10px;
+    border:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;    
+}
+.losR {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    text-align: left;
+    width: 50px; height: 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+.botonjej{
+    height: 50px;
+     margin: 10px;
+     padding-right: 40%;
+     padding-left: 40%;
+     margin-top: 50px;
+}
+.btnok{
+    width: 135px; 
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    color: white;
+    background-color: #3d5a80;
+    border: 2px solid #3d5a80;
+    border-radius: 10px;
+    position: center;
+}
+/* --------------------------------------------------------------------------
+   boton switch
+/--------------------------------------------------------------------------*/
+.switchu{
+ width: 40%;
+ float: right;
+ padding-top: 8px;
+}
+
+.onoffswitch {
+    position: relative; width: 55px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #EFEFEF; border-radius: 24px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 29px; padding: 0; line-height: 29px;
+    font-size: 10px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "";
+    padding-left: 5px;
+    background-color: #3D5A80; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "";
+    padding-right: 5px;
+    background-color: #AED4E6; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 20px; margin: 4.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 22px;
+    border: 2px solid #EFEFEF; border-radius: 24px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+/* --------------------------------------------------------------------------
+ subir foto
+/--------------------------------------------------------------------------*/
+
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt; 
+    border-radius: 8px;  
+    background-color: #3d5a80;
+    border: 2px solid #3d5a80; 
+    color: #ffffff;
+}
+
+.cosaa{
+    margin-right:10% ;
+    margin-left:10% ;
+   }
+    .cosaa table {
+        width: 80% ;
+    }
+   .cosasmagicas {
+    position: relative;
+    z-index: 80;
+    top: 80px;
+    bottom: 10px;
+    left: 0; 
+    right: 0;
+    height: 645px;
+}
+    .notificacionmagica{
+    margin: 0px auto 0px auto;
+    display: block;
+    height: 445px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: #C9DCE5;
+    }
+    .notificacionmagica {
+    float: right;
+    margin-right: 8%;    
+    }
